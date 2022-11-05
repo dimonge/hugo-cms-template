@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="sans-serif">
-
+  <body class="font-inter antialiased bg-white text-gray-800 tracking-tight">
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
     {{ block "main" . }}{{ end }}
