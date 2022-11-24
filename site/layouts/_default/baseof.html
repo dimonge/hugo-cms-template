@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="font-inter antialiased bg-white text-gray-800 tracking-tight">
-    {{ block "header" . }}{{ partial "nav" . }}{{end}}
+  <body class="font-inter antialiased bg-white text-gray-900 tracking-tight">
+    <div class="flex flex-col min-h-screen overflow-hidden">
+      {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
-    {{ block "main" . }}{{ end }}
+      {{ block "main" . }}{{ end }}
 
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+      {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
-    {{ $script := .Site.Data.webpack.main }}
-    {{ with $script.js }}
-      <script src="{{ relURL . }}"></script>
-    {{ end }}
+      {{ $script := .Site.Data.webpack.main }}
+      {{ with $script.js }}
+        <script src="{{ relURL . }}"></script>
+      {{ end }}
+    </div>
   </body>
 </html>

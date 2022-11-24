@@ -4,16 +4,16 @@ This is a small business template built with [Hugo](https://gohugo.io) and [Netl
 
 ## Getting started
 
-Use our deploy button to get your own copy of the repository. 
+Use our deploy button to get your own copy of the repository.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
 
 This will setup everything needed for running the CMS:
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
+- A new repository in your GitHub account with the code
+- Full Continuous Deployment to Netlify's global CDN network
+- Control users and access with Netlify Identity
+- Manage content with Netlify CMS
 
 Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
 
@@ -44,3 +44,15 @@ All SVG icons stored in `site/static/img/icons` are automatically optimized with
   <use xlink:href="#SVG-ID"></use>
 </svg>
 ```
+
+## LINKS
+
+https://functional.style/hugo/general/tailwind/
+
+https://gethugothemes.com/free-hugo-themes
+https://gohugo.io/getting-started/installing/
+https://www.netlifycms.org/docs/hugo/
+
+**Themes**
+https://github.com/gethugothemes/andromeda-light
+https://github.com/gethugothemes/bigspring-light
