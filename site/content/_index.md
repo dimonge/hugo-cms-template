@@ -3,8 +3,31 @@ title: "Welcome to RCCG Hosanna Chapel"
 subtitle: A place where expectation becomes manifestation
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: RCCG Hosanna
+    subheading: Chapel
+    text: "A place where expectation becomes manifestation."
+    videotext: Watch today's service live
+    videosource: https://www.youtube.com/embed/qz4F1uMzihY
+visionsection:
+    vision:
+    mission:
+departments:
+  title: Activities
+  content: .....
+  values:
+      - heading: Youth department
+        text: 
+      - heading: Children department
+        text:
+      - heading: Men department
+        text:
+      - heading: Evangelism department
+        text:
+      - heading: Prayer department
+        text:    
+      - heading: Music department
+        text: 
+    
 intro:
     heading: "What we offer"
     text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
